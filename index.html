@@ -23,7 +23,21 @@
 	<link href="css/prettyPhoto.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="css/smoothslides.theme.css">
 	<link rel="stylesheet" href="style.css">
-    <link href="css/responsive.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/countdown.js"></script>
+	<script>
+			jQuery(document).ready(function($){
+			'use strict';
+			// var weddingDate = new Date(weddingDate.getFullYear() + 1, 1 - 1, 1);
+			var weddingDate = new Date("April 21, 2022 18:04:00");
+			$(".countdown").countdown({
+				until: new Date(2022, 4-1, 21, 18, 4),
+				padZeroes: true,
+				format: 'ODHMS'
+			});
+		});
+	</script>
 </head>
 
 <body id="page-top" class="index four">
@@ -145,9 +159,7 @@
 						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. Sed ut 
 perspiciatis.</p>
                         <p class="social_icons">
-							 <a href="#"><i class="fa fa-twitter"></i></a>
-							 <a href="#"><i class="fa fa-linkedin"></i></a>
-							 <a href="#"><i class="fa fa-facebook"></i></a>
+							 <a href="https://instagram.com/apeksha_sable"><i class="fa fa-instagram"></i></a>
 						</p>
 					</div><!-- br_grm -->
 				</div><!-- col-md-6 -->
@@ -166,9 +178,7 @@ perspiciatis.</p>
 						<h3>Suraj Janere</h3>
 						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. Sed ut perspiciatis.</p>
                         <p class="social_icons">
-							 <a href="#"><i class="fa fa-twitter"></i></a>
-							 <a href="#"><i class="fa fa-linkedin"></i></a>
-							 <a href="#"><i class="fa fa-facebook"></i></a>
+							 <a href="https://instagram.com/sailor_sj16"><i class="fa fa-instagram"></i></a>
 						</p>
 					</div><!-- br_grm -->
 				</div><!-- col-md-6 -->
@@ -373,7 +383,9 @@ perspiciatis.</p>
 					</div>		
 			    </div>
 			</div>	
-				
+
+			<iframe src="https://drive.google.com/file/d/1ht0lu8s_DTC9XCQzGmL8wD58tz0pyeLb/preview" width="640" height="480" allow="autoplay"></iframe>
+
 			<div id="photo-container" class="row photo-container">
 				<div class="mix wday Graphics">
 					<img src="img/placehold/gallery-img-sml.png" alt="" />
@@ -885,7 +897,7 @@ perspiciatis.</p>
 	</div> <!-- .modal .wed -->
    <!-- Modal End-->
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 	<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -900,13 +912,13 @@ perspiciatis.</p>
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<!-- Nicescroll JavaScript -->
 	<script type="text/javascript" src="js/smoothslides.min.js"></script>
-	<script src="js/countdown.js"></script>
+	<!-- <script src="js/countdown.js"></script> -->
 	<!-- Video Background JavaScript -->
 	<script src="js/jquery.videobackground.js"></script>
 	<script src="js/jquery.imageScroll.js"></script>
 	 <!-- Custom Theme JavaScript -->
 	<script src="js/site.js"></script>
-	<script>
+	<!-- <script>
 			jQuery(document).ready(function($){
 			'use strict';
 			// var weddingDate = new Date(weddingDate.getFullYear() + 1, 1 - 1, 1);
@@ -917,6 +929,6 @@ perspiciatis.</p>
 				format: 'ODHMS'
 			});
 		});
-	</script>
+	</script> -->
 </body>
 </html>
