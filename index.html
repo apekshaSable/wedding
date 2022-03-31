@@ -75,7 +75,7 @@
 			    <section id="main-slider" class="main-slider">
 					<div class="ss-slides slides">
 						<video autoplay loop class="ss-slide" muted plays-inline>
-							<source src="img/background.mp4" type="video/mp4">
+							<source src="img/background_small.mp4" type="video/mp4">
 						  </video>
 						<!-- <div class="ss-slide">
 							<img src="img/placehold/slider.png" alt="Couple"/>
@@ -905,6 +905,18 @@ perspiciatis.</p>
 	<script src="js/jquery.videobackground.js"></script>
 	<script src="js/jquery.imageScroll.js"></script>
 	 <!-- Custom Theme JavaScript -->
-    <script src="js/site.js"></script>
+	<script src="js/site.js"></script>
+	<script>
+			jQuery(document).ready(function($){
+			'use strict';
+			// var weddingDate = new Date(weddingDate.getFullYear() + 1, 1 - 1, 1);
+			var weddingDate = new Date("April 21, 2022 18:04:00");
+			$(".countdown").countdown({
+				until: new Date(2022, 4-1, 21, 18, 4),
+				padZeroes: true,
+				format: 'ODHMS'
+			});
+		});
+	</script>
 </body>
 </html>
