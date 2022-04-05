@@ -100,8 +100,8 @@ jQuery(document).ready(function($) {
 	"use strict";
 	google.maps.event.addDomListener(window, 'load', init);
 	function init() {
-		var myLatlng = new google.maps.LatLng(23.835027, 90.368574);
-		var maptooltipbold = 'ThemeonLab';
+		var myLatlng = new google.maps.LatLng(18.75482098758442, 73.40316672879622);
+		var maptooltipbold = 'Sancheti Lawns';
 		var maptooltip = 'You can add your content here';
 		//---------------------------------------------------------//
 		var mapOptions = {
@@ -220,23 +220,23 @@ jQuery(document).ready(function($){
 //CountDown timer
 
 // Countdown
-jQuery(document).ready(function($){
-	'use strict';
-	// var weddingDate = new Date(weddingDate.getFullYear() + 1, 1 - 1, 1);
-	var weddingDate = new Date("April 21, 2022 18:04:00");
-	$(".countdown").countdown({
-		until: new Date(2022, 4-1, 21, 18, 4),
-		padZeroes: true,
-		format: 'ODHMS'
-	});
-});
+// jQuery(document).ready(function($){
+// 	'use strict';
+// 	// var weddingDate = new Date(weddingDate.getFullYear() + 1, 1 - 1, 1);
+// 	var weddingDate = new Date("April 21, 2022 18:04:00");
+// 	$(".countdown").countdown({
+// 		until: new Date(2022, 4-1, 21, 18, 4),
+// 		padZeroes: true,
+// 		format: 'ODHMS'
+// 	});
+// });
 
 // Smooth Slider
 jQuery(window).load( function() {
 	'use strict';
 	if(jQuery('.ss-slides').length) {
 	$(document).smoothSlides({
-	duration: 5000,
+	duration: 500000,
 	captions: false,
 	effect:'zoomOut',
 	pagination:false,
@@ -340,7 +340,7 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
 	'use strict';
 	document.getElementById("copyright").innerHTML =
-	"&copy;  " + new Date().getFullYear() + " <a href='http://www.themeonlab.com'>Themeonlab</a>. All rights reserved.";
+	"&copy;  " + new Date().getFullYear() + " Made with &#10084; by  Vinayak";
 });
 
 
